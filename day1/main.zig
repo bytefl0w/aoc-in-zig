@@ -1,10 +1,10 @@
 // Need to keep an array of ints, each index is the elf
 
 const std = @import("std");
-const os = std.os;
-const print = std.debug.print;
-const data = @embedFile("data.txt");
 const ArrayList = std.ArrayList;
+const print = std.debug.print;
+
+const data = @embedFile("data.txt");
 
 pub fn main() !void {
     print("AoC Day1 Challenge - GO!\n\n", .{});
